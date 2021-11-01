@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness website</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background:url('img/gymm.jpg');
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .navigation{
+            background-color: white;
+            width:42%;
+            display: block;
+            border-radius: 12px;
+            margin:8px auto;
+        }
+        .navigation  li{
+            display: inline-block;
+            margin: 10px;
+         } 
+        .navigation li a{
+            color: black;
+           
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+           }
+        .navigation ul{
+            list-style: none;
+            overflow: auto;
+
+
+        }
+        .navigation li a:hover{
+            color:gray;
+            text-decoration: underline;
+        }
+
+        .left{
+            display: inline-block;
+            position: absolute;
+            left: 24px;
+            top: 8px;
+            color: white;
+            margin: 4px;
+            text-align: center;
+            font-size: 18px;
+            
+        }
+        .left img{
+            width: 60px;
+            filter: invert(100%);
+            text-align: center;
+        }
+        
+            
+           
+            
+        
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 18px;
+            top: 20px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-weight: bold;
+            color: wheat;
+        }
+        .btn{
+            border: 2px solid white;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 4px;
+            font-size: 16px;
+            padding: 4px;
+            margin: 4px;
+            color: white;
+        }
+        .container{
+            border:2px solid white;
+            border-radius: 14px;
+            position: absolute;
+            right: 2px;
+            width: 30%;
+            margin: 30px 60px;
+            padding: 65px
+            
+            }
+        .formgrp input{
+            width: 300px;
+            display: block;
+            font-family:'Baloo Bhai 2', cursive;
+            border: 2px solid white;
+            border-radius: 4px;
+            margin: 10px auto;
+            padding: 4px;
+            text-align: center;
+            font-weight: bold;
+           
+        }
+        .btnn{
+            border: 2px solid white;
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 4px;
+            font-size: 16px;
+            padding: 4px;
+            margin: 24px;
+            color: white;
+            margin: 18px auto;
+            width: 120px;
+
+        }
+        .container h1{
+            color: white;
+            text-align: center;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <!--left-->
+     <div class="left">
+        <img src="img/dumble.png">
+        <div>
+            Solohades GY
+        </div>
+     </div>
+     <!--mid-->
+     <div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="https:://google.com">Home</a></li>
+                <li><a href="https:://google.com">Fitness Calculator</a></li>
+                <li><a href="https:://google.com">About Us</a></li>
+                <li><a href="https:://google.com">Contact Us</a></li>
+               </ul>
+        </nav>
+    </div>
+    <!--Right-->
+    <div class="right">
+        <button class="btn">Call Us</button>
+         <button class="btn">Mail Us</button>
+       
+    </div>
+       <div class="container">
+           <h1>SIGN UP HERE</h1>
+           <form action="no action.php">
+               <div class="formgrp">
+                   <input type="text" placeholder="Enter your name">
+               </div>
+               <div class="formgrp">
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="Enter your address">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="Enter your gender">
+            </div>
+            <div class="formgrp">
+                <input type="text" placeholder="Enter your occupation">
+            </div>
+            <div class="formgrp">
+                <button class="btnn">SUBMIT</button>
+            </div>
+
+           </form>
+       </div>
+        
+
+    </header>
+    
+</body>
+</html>
